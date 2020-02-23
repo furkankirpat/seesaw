@@ -276,8 +276,10 @@ export default {
             width: 425px;
             position: absolute;
             bottom: 100px;
-            left: 22%;
-            transform: rotate(0deg);
+            left: 0;
+            right:0;
+            margin: 0px auto;
+            transform: translate(50%);
 
             #bar {
                 width:425px;
@@ -299,10 +301,11 @@ export default {
             border-left: 50px solid transparent;
             border-right: 50px solid transparent;
             border-bottom: 100px solid #A3A3A3;
-            -webkit-transform: translate(50%, 0);
-            transform: translate(50%, 0);
-            left: 37%;
+            transform: translate(0%, 0px);
             bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0px auto;
         }
 }
 </style>
